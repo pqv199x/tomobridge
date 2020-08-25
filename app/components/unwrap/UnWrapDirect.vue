@@ -64,7 +64,7 @@
 import store from 'store'
 import Web3 from 'web3'
 import axios from 'axios'
-import WAValidator from 'wallet-address-validator'
+import WAValidator from 'multicoin-address-validator'
 export default {
     name: 'App',
     components: {

@@ -126,6 +126,8 @@ export default {
                 return WAValidator.validate(address, 'BTC', network)
             case 'ethereum':
                 return this.web3.utils.isAddress(address)
+            case 'tron':
+                return WAValidator.validate(address, 'Tron')
             default:
                 return false
             }
