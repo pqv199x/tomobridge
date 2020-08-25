@@ -57,7 +57,7 @@
 </template>
 
 <script>
-import WAValidator from 'wallet-address-validator'
+import WAValidator from 'multicoin-address-validator'
 export default {
     name: 'App',
     components: {
